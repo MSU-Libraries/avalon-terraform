@@ -43,11 +43,11 @@ variable "avalon_admin" {
 }
 
 variable "avalon_repo" {
-  default = "https://github.com/avalonmediasystem/avalon"
+  default = "https://gitlab.msu.edu/msu-libraries/public/avalon.git"
 }
 
 variable "avalon_branch" {
-  default = "demo"
+  default = "msul-main"
 }
 
 variable "bib_retriever_protocol" {
